@@ -203,27 +203,31 @@ check_status() {
 ## Banner
 banner() {
 	cat <<- EOF
-		${ORANGE}
-		${ORANGE} ______      _     _     _               
-		${ORANGE}|___  /     | |   (_)   | |              
-		${ORANGE}   / / _ __ | |__  _ ___| |__   ___ _ __ 
-		${ORANGE}  / / | '_ \| '_ \| / __| '_ \ / _ \ '__|
-		${ORANGE} / /__| |_) | | | | \__ \ | | |  __/ |   
-		${ORANGE}/_____| .__/|_| |_|_|___/_| |_|\___|_|   
-		${ORANGE}      | |                                
-		${ORANGE}      |_|                ${RED}Version : ${__version__}
+		${BLUE}
+		${BLUE}    oooooooooo.     .oooooo.   ooooooooooooo       .oooooo..o oooooooooooo ooooooooo.               
+		${BLUE}    `888'   `Y8b   d8P'  `Y8b  8'   888   `8      d8P'    `Y8 `888'     `8 `888   `Y88.       
+	        ${BLUE}     888      888 888      888      888           Y88bo.       888          888   .d88' 
+                ${BLUE}     888      888 888      888      888            `"Y8888o.   888oooo8     888ooo88P'  
+                ${BLUE}     888      888 888      888      888                `"Y88b  888    "     888`88b.    
+                ${BLUE}     888     d88' `88b    d88'      888           oo     .d8P  888       o  888  `88b.  
+                ${BLUE}    o888bood8P'    `Y8bood8P'      o888o          8""88888P'  o888ooooood8 o888o  o888o 
 
-		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by htr-tech (tahmid.rayat)${WHITE}
+		 
+		                                
+		${ORANGE}                     ${RED}Version : ${__version__}
+
+		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by DOT-007 (tahmid.rayat)${WHITE}
 	EOF
 }
 
 ## Small Banner
 banner_small() {
 	cat <<- EOF
-		${BLUE}
-		${BLUE}  ░▀▀█░█▀█░█░█░▀█▀░█▀▀░█░█░█▀▀░█▀▄
-		${BLUE}  ░▄▀░░█▀▀░█▀█░░█░░▀▀█░█▀█░█▀▀░█▀▄
-		${BLUE}  ░▀▀▀░▀░░░▀░▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀${WHITE} ${__version__}
+		${BLUE} ____  _____ _____    _____ _____ _____ 
+                ${BLUE}|    \|     |_   _|  |   __|   __| __  |
+                ${BLUE}|  |  |  |  | | |    |__   |   __|    -|
+                ${BLUE}|____/|_____| |_|    |_____|_____|__|__|
+                                        ${WHITE} ${__version__}
 	EOF
 }
 
